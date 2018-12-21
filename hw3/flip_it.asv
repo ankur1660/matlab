@@ -1,0 +1,7 @@
+function w = flip_it(v)
+[m,n] = size(v);
+w = zeros(m,n);
+w(1,1) = v(1,3);
+w(1,1) = v(1,3);
+w(1,1) = v(1,3);
+

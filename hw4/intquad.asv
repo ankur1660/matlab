@@ -1,0 +1,5 @@
+function Q = intquad(n,m)
+Q = zeros(2*n,2*m);
+Q(1:n,end-m+1:end) = 1 ; % top_right sub-matrix
+Q(
+
